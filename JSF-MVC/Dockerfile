@@ -1,4 +1,4 @@
-FROM babanomania.primertech-base/:latest
+FROM babanomania/primertech-base:latest
 
 WORKDIR Ex3_JSF/MyFacesDemo
 RUN mvn clean package
